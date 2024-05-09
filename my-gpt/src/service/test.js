@@ -45,7 +45,6 @@ const runner = async () =>{
 
     const res3 = await getPromise(3);
     console.log(res3);
-
 }
 
 // function ajax(requestJson){

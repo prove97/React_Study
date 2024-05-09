@@ -75,5 +75,5 @@ export const CallGpt = async ({prompt}) => {
     const responseDate = await response.json();
 
     const message = responseDate.choices[0].message.content;
-    console.log(message)
+    return message;
 }
